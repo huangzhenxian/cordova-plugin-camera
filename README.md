@@ -25,6 +25,10 @@ description: Take pictures with the device camera.
 |:-:|:-:|
 |[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-camera?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-camera)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-camera.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-camera)|
 
+# 修改内容
+修复国产魅族手机等裁剪无法加载图片bug,(策略修改为先获取图片的activity 在去裁剪的activity,官方策略是写一起直接)
+
+
 # cordova-plugin-camera
 
 This plugin defines a global `navigator.camera` object, which provides an API for taking pictures and for choosing images from
